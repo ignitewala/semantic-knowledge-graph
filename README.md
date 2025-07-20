@@ -21,3 +21,4 @@ This repository demonstrates how to build a semantic knowledge graph and represe
 - Access to LLM API (Ollama, OpenAI, Hugging Face, etc.)  
 
 ## Pre-req: local LLM
+- follow this tutorial for deploying Ollama/local LLM https://github.com/ignitewala/llm-local-k8s 
