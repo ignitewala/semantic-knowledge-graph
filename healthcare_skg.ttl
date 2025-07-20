@@ -1,0 +1,17 @@
+@prefix ns1: <http://demo.com/ns#> .
+
+ns1:Doctor_456 a ns1:Doctor ;
+    ns1:hasName "Dr. Jane Smith" ;
+    ns1:providesTreatment ns1:Treatment_789 .
+
+ns1:Patient_123 a ns1:Patient ;
+    ns1:hasDiagnosis ns1:Diagnosis_A ;
+    ns1:hasName "John Doe" .
+
+ns1:Treatment_789 a ns1:Treatment ;
+    ns1:hasName "Physical Therapy" ;
+    ns1:treatsDiagnosis ns1:Diagnosis_A .
+
+ns1:Diagnosis_A a ns1:Diagnosis ;
+    ns1:diagnosisName "Lower Back Pain" .
+

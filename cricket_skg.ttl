@@ -1,0 +1,40 @@
+@prefix ns1: <http://cricket.com/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:Brian_Lara a ns1:Player ;
+    ns1:catches 164 ;
+    ns1:name "Brian Lara" ;
+    ns1:playedIn ns1:Match_WIvAUS_1999 ;
+    ns1:playsFor ns1:WestIndies ;
+    ns1:scoredRuns 153 ;
+    ns1:testBattingAverage 5.288e+01 ;
+    ns1:testWickets 0 .
+
+ns1:Sachin_Tendulkar a ns1:Player ;
+    ns1:catches 115 ;
+    ns1:name "Sachin Tendulkar" ;
+    ns1:playedIn ns1:Match_INDvsAUS_2001 ;
+    ns1:playsFor ns1:India ;
+    ns1:scoredRuns 126 ;
+    ns1:testBattingAverage 5.378e+01 ;
+    ns1:testWickets 46 .
+
+ns1:Shane_Warne a ns1:Player ;
+    ns1:catches 125 ;
+    ns1:name "Shane Warne" ;
+    ns1:playedIn ns1:Match_INDvsAUS_2001,
+        ns1:Match_WIvAUS_1999 ;
+    ns1:playsFor ns1:Australia ;
+    ns1:testBattingAverage 1.732e+01 ;
+    ns1:testWickets 708 ;
+    ns1:tookWickets 4,
+        5 .
+
+ns1:Match_INDvsAUS_2001 a ns1:TestMatch ;
+    ns1:team1 ns1:India ;
+    ns1:team2 ns1:Australia .
+
+ns1:Match_WIvAUS_1999 a ns1:TestMatch ;
+    ns1:team1 ns1:WestIndies ;
+    ns1:team2 ns1:Australia .
+
